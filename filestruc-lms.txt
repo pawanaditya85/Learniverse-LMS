@@ -1,0 +1,62 @@
+university-management-system/
+├── node_modules/
+├── public/
+│   ├── index.html
+│   ├── favicon.ico
+│   └── manifest.json
+├── src/
+│   ├── components/
+│   │   ├── Header.js
+│   │   ├── Footer.js
+│   │   ├── LoginForm.js
+│   │   ├── RegistrationForm.js
+│   │   ├── ProtectedRoute.js
+│   │   └── ... (other reusable components)
+│   ├── contexts/
+│   │   └── AuthContext.js
+│   ├── pages/
+│   │   ├── Home.js
+│   │   ├── Faculty/
+│   │   │   ├── FacultyHome.js
+│   │   │   ├── CourseList.js
+│   │   │   ├── CourseDetails.js
+│   │   │   ├── StudentList.js
+│   │   │   ├── GradeAssignment.js
+│   │   │   ├── SyllabusManagement.js
+│   │   │   ├── AssignmentManagement.js
+│   │   │   ├── QuizManagement.js
+│   │   │   └── AnnouncementManagement.js
+│   │   ├── Student/
+│   │   │   ├── StudentHome.js
+│   │   │   ├── CourseList.js
+│   │   │   ├── CourseDetails.js
+│   │   │   ├── GradeView.js
+│   │   │   ├── ProfileSettings.js
+│   │   │   └── ... (other student-related pages)
+│   │   ├── Admin/
+│   │   │   ├── AdminHome.js
+│   │   │   ├── CourseManagement.js
+│   │   │   ├── FacultyAssignment.js
+│   │   │   ├── StudentList.js
+│   │   │   └── ... (other admin-related pages)
+│   │   └── ... (other pages)
+│   ├── services/
+│   │   ├── apiClient.js
+│   │   ├── authService.js
+│   │   ├── courseService.js
+│   │   ├── facultyService.js
+│   │   ├── studentService.js
+│   │   └── ... (other service files)
+│   ├── utils/
+│   │   ├── formatters.js
+│   │   └── ... (other utility files)
+│   ├── styles/
+│   │   ├── global.css
+│   │   └── ... (other CSS files)
+│   ├── App.js
+│   ├── index.js
+│   └── ... (other files)
+├── .gitignore
+├── package.json
+├── README.md
+└── ... (other project files)

@@ -1,0 +1,1081 @@
+{
+	"info": {
+		"_postman_id": "3b5e82b6-f2b1-45f6-9c2d-34665ab2a921",
+		"name": "API Documentation #reference",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "19671714"
+	},
+	"item": [
+		{
+			"name": "Student APIs",
+			"item": [
+				{
+					"name": "GetStudentCourses",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									""
+								],
+								"type": "text/javascript",
+								"packages": {}
+							}
+						}
+					],
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:3000/students/:studentId/courses/",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"students",
+								":studentId",
+								"courses",
+								""
+							],
+							"variable": [
+								{
+									"key": "studentId",
+									"value": "66330beec6d21c0a90db017d",
+									"uuid": "662300b6-69b5-4bca-a24f-bf46152a18ad"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "GetCourseDetails",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:3000/students/:studentId/courses/:courseId",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"students",
+								":studentId",
+								"courses",
+								":courseId"
+							],
+							"variable": [
+								{
+									"key": "studentId",
+									"value": "",
+									"uuid": "0fdb3269-4cb0-47a1-b9f9-9f217a5a816f"
+								},
+								{
+									"key": "courseId",
+									"value": "",
+									"uuid": "48ac5a0c-07d2-4daa-9372-e9165e3d71aa"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "GetCourseAssignments",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:3000/students/:studentId/courses/:courseId/assignments",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"students",
+								":studentId",
+								"courses",
+								":courseId",
+								"assignments"
+							],
+							"variable": [
+								{
+									"key": "studentId",
+									"value": "",
+									"uuid": "7be78a76-9b56-43b4-9ee7-ee51b80a6421"
+								},
+								{
+									"key": "courseId",
+									"value": "",
+									"uuid": "f62677b0-2a2f-48ca-84fc-95b72f3b3a03"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "GetCourseQuizzes",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:3000/students/:studentId/courses",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"students",
+								":studentId",
+								"courses"
+							],
+							"variable": [
+								{
+									"key": "studentId",
+									"value": "",
+									"uuid": "d8688bb3-b80b-4ee4-ab0f-b2762968cf16"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "GetCourseGrade",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:3000/students/:studentId/courses/:courseId/grades",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"students",
+								":studentId",
+								"courses",
+								":courseId",
+								"grades"
+							],
+							"variable": [
+								{
+									"key": "studentId",
+									"value": "",
+									"uuid": "862d3bae-2d10-4633-8ef2-5a6337c345e1"
+								},
+								{
+									"key": "courseId",
+									"value": "",
+									"uuid": "5d6f6a3c-ba17-4ab5-8a97-64f6e899b6ca"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "GetStudentProfile",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:3000/students/:studentId/profile",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"students",
+								":studentId",
+								"profile"
+							],
+							"variable": [
+								{
+									"key": "studentId",
+									"value": "66330beec6d21c0a90db017d",
+									"uuid": "bd3c7fc9-8e3d-40aa-a346-902504e66e59"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "UpdateStudentProfile",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n  \"bio\": \"Computer Science student at XYZ University.\",\n  \"major\": \"Computer Science\",\n  \"minor\": \"Mathematics\",\n  \"interests\": [\"Machine Learning\", \"Web Development\"],\n  \"skills\": [\"Python\", \"JavaScript\"],\n  \"projects\": [\"Project 1\", \"Project 2\", \"Project 3\"]\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:3000/students/:studentId/profile",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"students",
+								":studentId",
+								"profile"
+							],
+							"variable": [
+								{
+									"key": "studentId",
+									"value": "66330beec6d21c0a90db017d",
+									"uuid": "d5b6e9a3-29a5-476b-b428-1a6eff35e1ac"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "GetGrade",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:3000/students/:studentId/courses/:courseId/grades",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"students",
+								":studentId",
+								"courses",
+								":courseId",
+								"grades"
+							],
+							"variable": [
+								{
+									"key": "studentId",
+									"value": "66330beec6d21c0a90db017d",
+									"uuid": "8a565d6a-6c8e-4cbd-b48f-55469732d7ad"
+								},
+								{
+									"key": "courseId",
+									"value": "663306e4c6d21c0a90db0168",
+									"uuid": "4992f969-23ee-4cb5-94dd-0c025504df98"
+								}
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Admin APIs",
+			"item": [
+				{
+					"name": "createStudent",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"name\": \"Firstname Lastname\",\n    \"email\": \"firstname.lastname@email.com\",\n    \"notifications\": true\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:3000/admin/student",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"admin",
+								"student"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "GetStudents",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:3000/admin/students",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"admin",
+								"students"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "createFaculty",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n  \"name\": \"Professor A\",\n  \"email\": \"professora@example.com\",\n  \"department\": \"Computer Science\"\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:3000/admin/faculty",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"admin",
+								"faculty"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "GetFaculties",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:3000/admin/faculties",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"admin",
+								"faculties"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "CreateCourse",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"code\": \"CS101\",\n    \"name\": \"Introduction to Computer Science\",\n    \"description\": \"Introduction to Computer Science and Basic Programming\",\n    \"semester\": \"fall2024\",\n    \"isPublished\": false,\n    \"syllabus\": \"Course Syllabus (downloadable PDF link)\"\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:3000/admin/course",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"admin",
+								"course"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "GetCourses",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:3000/admin/courses",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"admin",
+								"courses"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "AssignFacultyToCourse",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n  \"name\": \"Divyam Test\",\n  \"email\": \"divyam@test.com\",\n  \"notifications\": false\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:3000/admin/course/:courseID/faculty/:facultyID",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"admin",
+								"course",
+								":courseID",
+								"faculty",
+								":facultyID"
+							],
+							"variable": [
+								{
+									"key": "courseID",
+									"value": "663306e4c6d21c0a90db0168",
+									"uuid": "d6d0ca2b-6c88-494a-aabb-4cebf9d2d4ea"
+								},
+								{
+									"key": "facultyID",
+									"value": "66330b6dc6d21c0a90db016d",
+									"uuid": "fa3a4101-6759-46f5-a983-36313cf27029"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "EnrollStudentsInCourses",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n  \"studentIds\": [\"66330beec6d21c0a90db017d\"],\n  \"courseIds\": [\"663306e4c6d21c0a90db0168\"]\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:3000/admin/enroll",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"admin",
+								"enroll"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Course APIs",
+			"item": [
+				{
+					"name": "GetCourse",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:3000/course/:courseID",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"course",
+								":courseID"
+							],
+							"variable": [
+								{
+									"key": "courseID",
+									"value": "663306e4c6d21c0a90db0168",
+									"uuid": "c32f2661-531f-4f96-af4a-5a9ce3f6ca47"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "PostAnnouncement",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"title\": \"Welcome to CS101\",\n    \"description\": \"Welcome to Inroductory class of CS101...\"\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:3000/course/:courseID/announcement",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"course",
+								":courseID",
+								"announcement"
+							],
+							"variable": [
+								{
+									"key": "courseID",
+									"value": "663306e4c6d21c0a90db0168",
+									"uuid": "057fb4b0-39c3-41d5-9dbc-2a8e6c17dd95"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "GetAnnouncement",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:3000/course/:courseID/announcements",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"course",
+								":courseID",
+								"announcements"
+							],
+							"variable": [
+								{
+									"key": "courseID",
+									"value": "663306e4c6d21c0a90db0168",
+									"uuid": "0cb3c88f-58d2-4801-969d-4bbdb87d4400"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "GetStudents",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:3000/course/:courseID/students",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"course",
+								":courseID",
+								"students"
+							],
+							"variable": [
+								{
+									"key": "courseID",
+									"value": "663306e4c6d21c0a90db0168",
+									"uuid": "96be694e-e373-44ac-be64-2a877631ffcb"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "putIsPublished",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"isPublished\":\"false\"\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:3000/course/:courseID/isPublished",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"course",
+								":courseID",
+								"isPublished"
+							],
+							"variable": [
+								{
+									"key": "courseID",
+									"value": "663306e4c6d21c0a90db0168",
+									"uuid": "e1b9ae92-658e-4249-9c7f-ca69eea13aa2"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "PutAssignment",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n  \"title\": \"Assignment 1\",\n  \"description\": \"This is the first assignment.\",\n  \"dueDate\": \"2022-12-31T00:00:00.000Z\",\n  \"totalGrade\": 100\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:3000/course/:courseID/assignment",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"course",
+								":courseID",
+								"assignment"
+							],
+							"variable": [
+								{
+									"key": "courseID",
+									"value": "663306e4c6d21c0a90db0168",
+									"uuid": "12e2b640-91b9-434f-959d-3f2bdecd1d95"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "PutQuiz",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n  \"title\": \"Quiz 1\",\n  \"description\": \"This is the first quiz.\",\n  \"dueDate\": \"2022-12-31T00:00:00.000Z\",\n  \"totalGrade\": 100\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:3000/course/:courseID/quiz",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"course",
+								":courseID",
+								"quiz"
+							],
+							"variable": [
+								{
+									"key": "courseID",
+									"value": "663306e4c6d21c0a90db0168",
+									"uuid": "f90f78f7-ae38-48e9-b79c-d4d89bb0211f"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "GetAssignments",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:3000/course/:courseID/assignments",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"course",
+								":courseID",
+								"assignments"
+							],
+							"variable": [
+								{
+									"key": "courseID",
+									"value": "663306e4c6d21c0a90db0168",
+									"uuid": "d3280bc8-f3e2-44b1-8a91-a686c967d859"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "GetQuizzes",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:3000/course/:courseID/quizzes",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"course",
+								":courseID",
+								"quizzes"
+							],
+							"variable": [
+								{
+									"key": "courseID",
+									"value": "663306e4c6d21c0a90db0168",
+									"uuid": "fb1b6fa3-acfb-43f8-b02b-679799eb4fc4"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "PutAssignmentGrade",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"grade\":80\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:3000/course/grades/:studentID/assignment/:assignmentID",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"course",
+								"grades",
+								":studentID",
+								"assignment",
+								":assignmentID"
+							],
+							"variable": [
+								{
+									"key": "studentID",
+									"value": "66330beec6d21c0a90db017d",
+									"uuid": "9e666350-5bad-4143-93dc-e50d468cb18b"
+								},
+								{
+									"key": "assignmentID",
+									"value": "663314506c31ec8e24a27121",
+									"uuid": "224a6360-cbe1-48d2-9d03-37d4b8b130b6"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "PutQuizGrade",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"grade\":70\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:3000/course/grades/:studentID/quiz/:quizID",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"course",
+								"grades",
+								":studentID",
+								"quiz",
+								":quizID"
+							],
+							"variable": [
+								{
+									"key": "studentID",
+									"value": "66330beec6d21c0a90db017d",
+									"uuid": "2f39e3bd-f32f-4aed-a560-21d0ff002e0d"
+								},
+								{
+									"key": "quizID",
+									"value": "663314756c31ec8e24a27131",
+									"uuid": "2ed05fc5-9afd-463c-ae0f-37970dc2373c"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "PutSyllabus",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"syllabus\":\"Course Syllabus updated (downloadable PDF link)\"\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:3000/course/:courseID/syllabus",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"course",
+								":courseID",
+								"syllabus"
+							],
+							"variable": [
+								{
+									"key": "courseID",
+									"value": "663306e4c6d21c0a90db0168",
+									"uuid": "cf443f44-6e09-49a6-b219-60228f5a7d13"
+								}
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Faculty APIs",
+			"item": [
+				{
+					"name": "getCoursesTaughtByFaculty",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:3000/faculty/:facultyID/courses",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"faculty",
+								":facultyID",
+								"courses"
+							],
+							"variable": [
+								{
+									"key": "facultyID",
+									"value": "66330b6dc6d21c0a90db016d",
+									"uuid": "11e1fe92-5aaa-4235-80da-91952f3b400b"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "GetFaculty",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:3000/faculty/:facultyID",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"faculty",
+								":facultyID"
+							],
+							"variable": [
+								{
+									"key": "facultyID",
+									"value": "66330b6dc6d21c0a90db016d",
+									"uuid": "7d9f45cb-f056-426a-80f9-6523e5f00299"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "PutDepartment",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"department\": \"Computer Engineering Deapartment\"\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:3000/faculty/:facultyID/department",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"faculty",
+								":facultyID",
+								"department"
+							],
+							"variable": [
+								{
+									"key": "facultyID",
+									"value": "66330b6dc6d21c0a90db016d",
+									"uuid": "5e1f53f4-465e-4f24-b155-1414a26f6355"
+								}
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		}
+	],
+	"auth": {
+		"type": "apikey",
+		"apikey": [
+			{
+				"key": "key",
+				"value": "X-API-Key",
+				"type": "string"
+			},
+			{
+				"key": "value",
+				"value": "{{token}}",
+				"type": "string"
+			}
+		]
+	},
+	"event": [
+		{
+			"listen": "prerequest",
+			"script": {
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		},
+		{
+			"listen": "test",
+			"script": {
+				"type": "text/javascript",
+				"packages": {},
+				"exec": [
+					""
+				]
+			}
+		}
+	],
+	"variable": [
+		{
+			"key": "baseUrl",
+			"value": "https://farming-simulator.pstmn.io"
+		}
+	]
+}
