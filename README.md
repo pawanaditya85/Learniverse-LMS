@@ -5,7 +5,6 @@
 | Shreekar Kolanu | 017406493 |
 | Pawan Aditya Man| 017506450 |
 | Naga Varun Bathina| 017434261 |
-|  Divyam Savsaviya | 017536714 |
 
 An overview of the project structure. For example:
 
@@ -13,18 +12,6 @@ An overview of the project structure. For example:
 - frontend/: Contains the frontend code.
 - Diagrams/: Contains diagrams related to the project.
 - Project Journel/: Contains project journals.
-
-# *Team Contributions*
-
-
-| Team Member| TASKS |
-| --- | --- |
-| Divyam Savsaviya | Backend planning and architecture, meticulously crafting schemas for students, courses, and admin functionalities. Led testing efforts and coordinated task delegation within the team. Actively collaborated with team members to ensure seamless integration of backend components. Coordinated project tasks and effective communication.|
-| Pawan Aditya Man | worked on creating UML diagrams and worked on backed for creating endpoints for faculty, course and also tested the endpoints for Admin and course. Created the collections on postman with all the listed APIs and also worked for Integrating frontend and backend.
-| Naga Varun Bathina | worked on front end architecture, sign-up, login ui. Integration, with backend. The home page,Grading Assignments, creating Assignments, create Subject, Teacher and assisted in Cloud deployment and read-me file|
-| Shreekar Kolanu | Worked on the Frontend, schemas and architecture. Routing multiple components for creating student and teacher modules and adding features like Announcements,Quiz etc and application deployment of the project with auto-scaling & load-balancer in Aws cloud EC2.|
-
-
 
 
 # *Starting the Backend*
@@ -99,18 +86,6 @@ Aditya's Journal
 
 [AdityaProjectJournel.md](https://github.com/gopinathsjsu/teamprojectsection-01-cmpe202-tuesday-kinetic_spring/blob/d9f30e5edfdaf0ffbe92a4be6f14e01370a910dc/Project%20Journel/AdityaProjectJournel.md)
 
-Shreekar's Journal
-
-[ShreekarProjectJournal.md](https://github.com/gopinathsjsu/teamprojectsection-01-cmpe202-tuesday-kinetic_spring/blob/0808d8673349199cbbd294c2f01fe11d711a4a86/Project%20Journel/ShreekarProjectJournel.md)
-
-Varun's Journal
-
-[VarunProjectJournal.md](https://github.com/gopinathsjsu/teamprojectsection-01-cmpe202-tuesday-kinetic_spring/blob/0808d8673349199cbbd294c2f01fe11d711a4a86/Project%20Journel/VarunProjectJournal.md)
-
-Divyam's Journal
-
-[Divyamprojectjournel.md](https://github.com/gopinathsjsu/teamprojectsection-01-cmpe202-tuesday-kinetic_spring/blob/0808d8673349199cbbd294c2f01fe11d711a4a86/Project%20Journel/DivyamProjectJournel.md)
-
 
 # *XP Values*
 
@@ -181,24 +156,22 @@ Kinetic_sprint_Taskboard
 
 # *USE CASE Diagram*
 
-![Use Case Diagram.jpeg](Diagrams/Use Case Diagram final.png)
+https://github.com/pawanaditya85/Learniverse-LMS/blob/725da5d2cffc44422e77498661d2218730bddf6d/Diagrams/Use%20Case%20Diagram%20final.png
 
 
 # *DEPLOYMENT DIAGRAM*
-![DeploymentDiagram.png](https://github.com/gopinathsjsu/teamprojectsection-01-cmpe202-tuesday-kinetic_spring/blob/7fdc35c16ace4423dcfdc9a41a3c5b3bdc6211e9/Diagrams/Backend/DeploymentDiagram.png)
-
+https://github.com/pawanaditya85/Learniverse-LMS/blob/725da5d2cffc44422e77498661d2218730bddf6d/Diagrams/Deployment%20Diagram.png
 
 # *COMPONENT DIAGRAM*
-![componenet diagram](https://github.com/gopinathsjsu/teamprojectsection-01-cmpe202-tuesday-kinetic_spring/assets/160942470/833c6dce-a893-44d6-83d3-ffc1cf8f5494)
-
+https://github.com/pawanaditya85/Learniverse-LMS/blob/725da5d2cffc44422e77498661d2218730bddf6d/Diagrams/Componenet%20final.png
 
 # *ARCHITECTURE DIAGRAM*
-![Architecture Diagram](https://github.com/gopinathsjsu/teamprojectsection-01-cmpe202-tuesday-kinetic_spring/assets/160942470/538a80b2-22fa-4e77-a499-690656217502)
+https://github.com/pawanaditya85/Learniverse-LMS/blob/725da5d2cffc44422e77498661d2218730bddf6d/Diagrams/Architecture%20Diagram.jpeg
 
 # *BURNDOWN CHART*
 
-![Srpint1 and 2](https://github.com/gopinathsjsu/teamprojectsection-01-cmpe202-tuesday-kinetic_spring/blob/a4171e4f88b332f6023932026af799428758a3ab/burndowncharts/Burndownchart_Sprint1-2.jpeg)
+https://github.com/pawanaditya85/Learniverse-LMS/blob/6d1e37b0b3cc623f4512ec825676ea9e3bd9c8a5/Diagrams/Burndownchart_Sprint1-2.jpeg
 
-![Srpint3 and 4](https://github.com/gopinathsjsu/teamprojectsection-01-cmpe202-tuesday-kinetic_spring/blob/a4171e4f88b332f6023932026af799428758a3ab/burndowncharts/Burndownchart_Sprint3-4.jpeg)
+https://github.com/pawanaditya85/Learniverse-LMS/blob/6d1e37b0b3cc623f4512ec825676ea9e3bd9c8a5/Diagrams/Burndownchart_Sprint3-4.jpeg
 
-![Srpint5 and 6](https://github.com/gopinathsjsu/teamprojectsection-01-cmpe202-tuesday-kinetic_spring/blob/a4171e4f88b332f6023932026af799428758a3ab/burndowncharts/Burndownchart_Sprint5-6.jpeg)
+https://github.com/pawanaditya85/Learniverse-LMS/blob/6d1e37b0b3cc623f4512ec825676ea9e3bd9c8a5/Diagrams/Burndownchart_Sprint5-6.jpeg
