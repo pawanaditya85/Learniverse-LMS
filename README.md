@@ -156,22 +156,23 @@ Kinetic_sprint_Taskboard
 
 # *USE CASE Diagram*
 
-https://github.com/pawanaditya85/Learniverse-LMS/blob/725da5d2cffc44422e77498661d2218730bddf6d/Diagrams/Use%20Case%20Diagram%20final.png
+![A](https://github.com/pawanaditya85/Learniverse-LMS/blob/725da5d2cffc44422e77498661d2218730bddf6d/Diagrams/Use%20Case%20Diagram%20final.png)
 
 
 # *DEPLOYMENT DIAGRAM*
-https://github.com/pawanaditya85/Learniverse-LMS/blob/725da5d2cffc44422e77498661d2218730bddf6d/Diagrams/Deployment%20Diagram.png
+![b](https://github.com/pawanaditya85/Learniverse-LMS/blob/725da5d2cffc44422e77498661d2218730bddf6d/Diagrams/Deployment%20Diagram.png
+)
 
 # *COMPONENT DIAGRAM*
-https://github.com/pawanaditya85/Learniverse-LMS/blob/725da5d2cffc44422e77498661d2218730bddf6d/Diagrams/Componenet%20final.png
+![c](https://github.com/pawanaditya85/Learniverse-LMS/blob/725da5d2cffc44422e77498661d2218730bddf6d/Diagrams/Componenet%20final.png)
 
 # *ARCHITECTURE DIAGRAM*
-https://github.com/pawanaditya85/Learniverse-LMS/blob/725da5d2cffc44422e77498661d2218730bddf6d/Diagrams/Architecture%20Diagram.jpeg
+![d](https://github.com/pawanaditya85/Learniverse-LMS/blob/725da5d2cffc44422e77498661d2218730bddf6d/Diagrams/Architecture%20Diagram.jpeg)
 
 # *BURNDOWN CHART*
 
-https://github.com/pawanaditya85/Learniverse-LMS/blob/6d1e37b0b3cc623f4512ec825676ea9e3bd9c8a5/Diagrams/Burndownchart_Sprint1-2.jpeg
+![e](https://github.com/pawanaditya85/Learniverse-LMS/blob/6d1e37b0b3cc623f4512ec825676ea9e3bd9c8a5/Diagrams/Burndownchart_Sprint1-2.jpeg)
 
-https://github.com/pawanaditya85/Learniverse-LMS/blob/6d1e37b0b3cc623f4512ec825676ea9e3bd9c8a5/Diagrams/Burndownchart_Sprint3-4.jpeg
+![f](https://github.com/pawanaditya85/Learniverse-LMS/blob/6d1e37b0b3cc623f4512ec825676ea9e3bd9c8a5/Diagrams/Burndownchart_Sprint3-4.jpeg)
 
-https://github.com/pawanaditya85/Learniverse-LMS/blob/6d1e37b0b3cc623f4512ec825676ea9e3bd9c8a5/Diagrams/Burndownchart_Sprint5-6.jpeg
+![g](https://github.com/pawanaditya85/Learniverse-LMS/blob/6d1e37b0b3cc623f4512ec825676ea9e3bd9c8a5/Diagrams/Burndownchart_Sprint5-6.jpeg)
