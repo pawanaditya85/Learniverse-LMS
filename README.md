@@ -181,7 +181,7 @@ Kinetic_sprint_Taskboard
 
 # *USE CASE Diagram*
 
-![Use Case Diagram.jpeg](https://github.com/gopinathsjsu/teamprojectsection-01-cmpe202-tuesday-kinetic_spring/blob/0808d8673349199cbbd294c2f01fe11d711a4a86/Diagrams/Backend/Use%20Case%20diagram.jpeg)
+![Use Case Diagram.jpeg](Diagrams/Use Case Diagram final.png)
 
 
 # *DEPLOYMENT DIAGRAM*
